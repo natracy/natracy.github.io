@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Washington Metro Ridership</title>
+
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link href="https://fonts.googleapis.com/css?family=Lusitana:400,700" rel="stylesheet">
+	
+	<link rel="stylesheet" href="final.css" type="text/css">
+
+</head>
+
+<body>
+
+	<h1>Washington Metrorail Ridership</h1>
+	
+	<div class="sidebar" style="width:25%">
+		
+			<a href="#intro" class="intro">Introduction</a>
+		
+			<a href="#ridership" class="ridership">Ridership</a>
+		
+			<a href="#unemployment" class="unemployment">Unemployment</a>
+		
+			<a href="#about" class="about">About</a>
+	
+	</div> 
+	
+	<h2><a name="intro">Introduction</a></h2>
+	
+	<div class="introduction">
+	
+	<p>The Washington Metropolitan Area Transit Authority was founded on February 20, 1967 to address the transit needs of 
+	the Capital City. WMATA (as it’s colloquially known) has the unique challenge of managing a bus and rail system in 
+	Washington, DC, Virginia, and Maryland. This creates funding circumstances of three jurisdictions in addition to veto 
+	power by the US Congress due to Washington, DC being a federal district. Creating and funding a functional system has 
+	been an ongoing dispute for a variety of reasons including poor union leadership, ineffective management, and 
+	jurisdictional hold up. As the Washington DC metro area population continues to grow and the metrorail system continues 
+	to expand, support of the rail system is necessary for regional success.</p>
+
+	<p>To solve, I propose measuring ridership in weekday boardings per jurisdiction. There is no way to segregate riders 
+	per line due to every line overlapping except the Red Line. Therefore, I have grouped the stations into Washington, DC, 
+	Virginia, and Maryland. Public transit is most often used by commuters which I will prove by analyzing Washington, DC 
+	unemployment rates versus Metro ridership. Interestingly enough, the data supports higher unemployment in Washington, 
+	DC even when DC ridership levels are at their highest. This highlights the number of commuters traveling into the city 
+	from the surrounding jurisdictions.</p>
+	
+	<p>As the Washington, DC population grows along with higher than average national unemployment rates, DC stations saw 
+	significant growth. This can only lead to the conclusion that riders are entering the system from the suburbs and 
+	commuting into the city for work. This evidence should allow the discussion to begin about sensible tri-jurisdictional 
+	management and funding more evenly spread throughout the three governments rather than relying on DC as the major 
+	contributor.</p>
+	
+	</div>
+	
+	<h2><a name="ridership">Ridership</a></h2>
+	
+	<div class='graph1' id='viz1543380300345'>
+	
+			<noscript>
+		
+			<a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MetrorailRidership1977-2017&#47;RidershipPopulation&#47;1_rss.png' style='border: none' />
+			
+			</a>
+			
+		</noscript>
+		
+		<object class='tableauViz'  style='display:none;'>
+		
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+		
+			<param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+		
+			<param name='name' value='MetrorailRidership1977-2017&#47;RidershipPopulation' />
+		
+			<param name='tabs' value='no' /><param name='toolbar' value='yes' />
+		
+			<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MetrorailRidership1977-2017&#47;RidershipPopulation&#47;1.png' /> 
+		
+			<param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+		
+			<param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+		
+			<param name='display_count' value='yes' /><param name='filter' value='publish=yes' />
+		
+		</object></div>
+
+		<div class='graph2' id='viz1543863280372' style='position: relative'>
+		
+		<noscript>
+		
+		<a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalRidershipvsDCPopulation&#47;TotalYearOverYear&#47;1_rss.png' style='border: none' />
+		
+		</a>
+		
+		</noscript>
+		
+		<object class='tableauViz'  style='display:none;'>
+		
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> 
+			
+			<param name='site_root' value='' /><param name='name' value='TotalRidershipvsDCPopulation&#47;TotalYearOverYear' />
+			
+			<param name='tabs' value='no' /><param name='toolbar' value='yes' />
+			
+			<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;TotalRidershipvsDCPopulation&#47;TotalYearOverYear&#47;1.png' /> 
+			
+			<param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+			
+			<param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+			
+			<param name='display_count' value='yes' /><param name='filter' value='publish=yes' />
+			
+			</object></div>     
+			
+		<div class='graph3' id='viz1543867721689' style='position: relative'>
+		
+		<noscript>
+		
+		<a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DC&#47;DCMDVARidershipYearoverYear&#47;JurisdictionYearOverYear&#47;1_rss.png' style='border: none' />
+		
+		</a>
+		
+		</noscript>
+		
+		<object class='tableauViz'  style='display:none;'>
+		
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> 
+			
+			<param name='site_root' value='' /><param name='name' value='DCMDVARidershipYearoverYear&#47;JurisdictionYearOverYear' />
+			
+			<param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DC&#47;DCMDVARidershipYearoverYear&#47;JurisdictionYearOverYear&#47;1.png' /> 
+			
+			<param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+			
+			<param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+			
+			<param name='display_count' value='yes' /><param name='filter' value='publish=yes' />
+			
+			</object></div>
+	
+		<h3><a name="unemployment">Unemployment</a></h3>
+			
+		<div class='graph4' id='viz1543868116490' style='position: relative'>
+		
+		<noscript>
+		
+		<a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DC&#47;DCUnemploymentRatevsPopulation&#47;DCUnemploymentPopulation&#47;1_rss.png' style='border: none' />
+		
+		</a>
+		
+		</noscript>
+		
+		<object class='tableauViz'  style='display:none;'>
+		
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> 
+			
+			<param name='site_root' value='' /><param name='name' value='DCUnemploymentRatevsPopulation&#47;DCUnemploymentPopulation' />
+			
+			<param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DC&#47;DCUnemploymentRatevsPopulation&#47;DCUnemploymentPopulation&#47;1.png' /> 
+			
+			<param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+			
+			<param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+			
+			<param name='display_count' value='yes' /><param name='filter' value='publish=yes' />
+			
+			</object></div>                
+			
+		<div class='graph5' id='viz1543868485405' style='position: relative'>
+		
+		<noscript>
+		
+		<a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DC&#47;DCRidershipvsUnemploymentRate&#47;DCRidershipUnemployment&#47;1_rss.png' style='border: none' />
+		
+		</a>
+		
+		</noscript>
+		
+		<object class='tableauViz'  style='display:none;'>
+		
+			<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> 
+			
+			<param name='site_root' value='' /><param name='name' value='DCRidershipvsUnemploymentRate&#47;DCRidershipUnemployment' />
+			
+			<param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DC&#47;DCRidershipvsUnemploymentRate&#47;DCRidershipUnemployment&#47;1.png' /> 
+			
+			<param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+			
+			<param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+			
+			<param name='display_count' value='yes' /><param name='filter' value='publish=yes' />
+			
+			</object></div>                
+		
+
+		
+		<h4><a name="about">About Me</a></h4>
+	
+		<div class="sources">
+	
+		<p>My name is Nicholas Tracy and I’m completing a Master of Arts in Applied Economics at The George Washington 
+		University in December 2018. I generated this data set from the US Census, St Louis Federal Reserve, and Metrorail 
+		websites. I hope to prove collaboration is key to success and a valued goal even through tri-jurisdictional 
+		challenges. Partnership through economics is possible. Thank you for taking the time to review my work. For questions
+		regarding my data sources, please see links below.</p>
+		
+		<p>Population Data <a href="https://www.census.gov/" target="_blank">here!</a></p>
+		
+		<p>Ridership Data <a href="https://www.wmata.com/about/records/public-records.cfm" target="_blank">here!</a></p>
+		
+		<p>Unemployment Data <a href="https://fred.stlouisfed.org/series/DCDIST5URN" target="_blank">here!</a></p>
+	
+		</div>
+		
+		<script type='text/javascript'>                    
+		
+			var divElement = document.getElementById('viz1543380300345');                    
+		
+			var vizElement = divElement.getElementsByTagName('object')[0];                    
+		
+			vizElement.style.width='800px'; vizElement.style.height='500px';            
+		
+			var scriptElement = document.createElement('script');                    
+		
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+		
+			vizElement.parentNode.insertBefore(scriptElement, vizElement);      
+		
+		</script>
+		
+		
+		<script type='text/javascript'>                    
+		
+		var divElement = document.getElementById('viz1543863280372');                    
+		
+		var vizElement = divElement.getElementsByTagName('object')[0];                    
+		
+		vizElement.style.width='800px'; vizElement.style.height='500px';                    
+		
+		var scriptElement = document.createElement('script');                    
+		
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+		
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+		
+		</script>
+		
+					
+		<script type='text/javascript'>                    
+		
+		var divElement = document.getElementById('viz1543867721689');                    
+		
+		var vizElement = divElement.getElementsByTagName('object')[0];                    
+		
+		vizElement.style.width='800px'; vizElement.style.height='500px';                   
+		
+		var scriptElement = document.createElement('script');                    
+		
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+		
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+		
+		</script>
+
+					
+		<script type='text/javascript'>                    
+		
+		var divElement = document.getElementById('viz1543868116490');                    
+		
+		var vizElement = divElement.getElementsByTagName('object')[0];                    
+		
+		vizElement.style.width='800px'; vizElement.style.height='500px';                    
+		
+		var scriptElement = document.createElement('script');                    
+		
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+		
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+		
+		</script>	
+		
+		
+		<script type='text/javascript'>                    
+		
+		var divElement = document.getElementById('viz1543868485405');                    
+		
+		var vizElement = divElement.getElementsByTagName('object')[0];                    
+		
+		vizElement.style.width='800px'; vizElement.style.height='500px';                    
+		
+		var scriptElement = document.createElement('script');                    
+		
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+		
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+		
+		</script>
+
+	
+	<div class="metromap3.png">
+	
+	</div>
+	
+	<div class="footer">
+  
+		<p>HTML | CSS Developed by: Nicholas Tracy (2018)</p>
+	
+	</div>
+	
+</body>
+
+</html>

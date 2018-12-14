@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0
+}
+
+html	{
+   background: url(metromap3.png) no-repeat center fixed;
+   background-size: cover;
+   
+   
+}
+
+h1{
+	color: #82898C;
+	text-align: center;
+	font-family: Lusitana, sanserif;
+	font-size: 80px;
+	font-style: none;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+h2{
+	color: #82898C;
+	text-align: center;
+	font-family: Lusitana, sanserif;
+	font-size: 40px;
+	font-style: none;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 265px;
+	padding-right: 15px;
+}
+
+h3{
+	color: #82898C;
+	text-align: center;
+	font-family: Lusitana, sanserif;
+	font-size: 40px;
+	font-style: none;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 265px;
+	padding-right: 15px;
+}
+
+h4{
+	color: #82898C;
+	text-align: center;
+	font-family: Lusitana, sanserif;
+	font-size: 40px;
+	font-style: none;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 365px;
+	padding-right: 15px;
+}
+
+nav {
+	width: 100%;
+	height: 100px;
+	
+}
+
+.sidebar {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    text-align: center;
+    overflow-x: hidden;
+    padding: 8px 0;	
+	padding-top: 160px;
+
+}
+
+.sidebar a {
+    font-family: Lusitana, sanserif;
+    text-decoration: none;
+    font-size: 40px;
+    color: #82898C;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #555;
+}
+
+.introduction{
+	color: black;
+	font-family: Lusitana, sanserif;
+	font-size: 18px;
+	font-style: none;
+	padding-left: 345px;
+	padding-right: 15px;
+	text-indent: 50px;
+	line-height: 1.4;
+	
+}
+
+.sources{
+	color: black;
+	font-family: Lusitana, sanserif;
+	font-size: 18px;
+	font-style: none;
+	padding-left: 345px;
+	padding-right: 15px;
+	text-indent: 50px;
+	padding-bottom: 150px;
+	line-height: 1.4;
+	
+}
+
+.intro{
+	border: 12px solid blue;
+	border-radius: 25px;
+	
+}
+
+.ridership{
+	border: 12px solid orange;
+	border-radius: 25px;
+	
+}
+
+.unemployment{
+	border: 12px solid green;
+	border-radius: 25px;
+	
+}
+
+.about{
+	border: 12px solid red;
+	border-radius: 25px;
+	
+}
+
+.graph1{
+	float: right;
+	padding-right: 15px;
+	padding-bottom: 30px;
+	
+}
+
+.graph2{
+	float: right;
+	padding-right: 15px;
+	padding-bottom: 30px;
+	
+}
+
+.graph3{
+	float: right;
+	padding-right: 15px;
+	padding-bottom: 30px;
+	
+}
+
+.graph4{
+	float: right;
+	padding-right: 15px;
+	padding-bottom: 30px;
+	
+}
+
+.graph5{
+	float: right;
+	padding-right: 15px;
+	padding-bottom: 30px;
+	
+}
+
+.footer {
+   position: fixed;
+   right: 0;
+   left: 0;
+   bottom: 0; 
+   color: black;
+   text-align: center;
+   border: 12px solid yellow;
+   border-radius: 25px;
+   padding-left: 15px;
+   padding-right: 15px;
+   font-family: Lusitana, sanserif;
+   font-size: 15px;
+	
+}
